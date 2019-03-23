@@ -13,6 +13,12 @@
     "submodule:update": "git submodule update --recursive --remote --init"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "@mdx-js/parcel-plugin-mdx": "^0.20.3",
+    "@mdx-js/tag": "^0.20.3",
     "@types/react": "^16.8.8",
     "@types/react-dom": "^16.8.3",
     "parcel": "^1.12.3",
