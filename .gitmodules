@@ -1,0 +1,3 @@
+[submodule "storie"]
+	path = storie
+	url = https://github.com/animify/storie

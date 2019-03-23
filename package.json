@@ -1,5 +1,6 @@
 {
   "name": "storie-homepage",
+  "private": true,
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/animify/storie-homepage.git",
@@ -7,7 +8,9 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel public/index.html",
-    "build": "parcel build public/index.html -d build/output"
+    "build": "parcel build public/index.html -d build/output",
+    "submodule:add": "git submodule add --force https://github.com/animify/storie ./storie",
+    "submodule:update": "git submodule update --recursive --remote --init"
   },
   "devDependencies": {
     "@types/react": "^16.8.8",
@@ -19,5 +22,8 @@
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
     "tslib": "^1.9.3"
-  }
+  },
+  "workspaces": [
+    "storie"
+  ]
 }
