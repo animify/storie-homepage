@@ -1,3 +1,4 @@
-import React from "react";
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-React.render(<p>Hi</p>, document.getElementById("root"));
+ReactDOM.render(<p>Hi</p>, document.getElementById('root'));
